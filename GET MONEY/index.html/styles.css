@@ -1,0 +1,231 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #222;
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f1c40f;
+}
+
+/* Sección Bienvenida */
+#bienvenida {
+    position: relative;
+    height: 80vh;
+    background: #000;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.bienvenida-texto {
+    text-align: center;
+    color: white;
+    padding: 60px 20px;
+}
+
+.bienvenida-texto h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.bienvenida-texto p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.bienvenida-texto .btn-primary {
+    background-color: #f1c40f;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.bienvenida-texto .btn-primary:hover {
+    background-color: #d4a007;
+}
+
+/* Sección Servicios */
+#servicios {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#servicios h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+    font-weight: 700;
+}
+
+.servicio {
+    margin-bottom: 40px;
+}
+
+.servicio h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.servicio p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Sección Precios */
+#precios {
+    background-color: #f8f8f8;
+    padding: 60px 20px;
+}
+
+#precios h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+    font-weight: 700;
+}
+
+.precio {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.precio h3 {
+    font-size: 28px;
+    color: #333;
+    font-weight: 700;
+}
+
+.precio p {
+    font-size: 20px;
+    color: #777;
+    margin: 20px 0;
+}
+
+.precio:hover {
+    transform: translateY(-10px);
+    transition: transform 0.3s ease;
+}
+
+/* Sección Contacto */
+#contacto {
+    padding: 60px 20px;
+    background-color: #fff;
+}
+
+#contacto h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: grid;
+    gap: 20px;
+}
+
+form label {
+    font-size: 18px;
+    color: #333;
+}
+
+form input, form textarea {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+form button {
+    background-color: #f1c40f;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #d4a007;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
